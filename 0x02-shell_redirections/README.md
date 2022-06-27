@@ -16,3 +16,4 @@ Directory for project on shell redirections
 14-findthatword - script to display lines containing the pattern “root” from the file /etc/passwd
 15-countthatword - script to display the number of lines that contain the pattern “bin” in the file /etc/passwd
 16-whatsnext - script to display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
+17-hidethisword - script to display all the lines in the file /etc/passwd that do not contain the pattern “bin”
