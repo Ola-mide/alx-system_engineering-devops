@@ -8,3 +8,4 @@ Directory for shell variables expansions
 6-create_local_variables - script that creates a new local variable
 7-create_global_variables - script that creates a new global variable
 8-true_knowledge - script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line
+9-divide_and_rule - script that prints the result of POWER divided by DIVIDE, followed by a new line
