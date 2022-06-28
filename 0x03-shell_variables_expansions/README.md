@@ -5,3 +5,4 @@ Directory for shell variables expansions
 3-paths - script that counts the number of directories in the PATH
 4-global_variables - script that lists environment variables
 5-local_variables - script that lists all local variables and environment variables, and functions
+6-create_local_variables - script that creates a new local variable
