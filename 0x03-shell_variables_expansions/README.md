@@ -15,3 +15,4 @@ Directory for shell variables expansions
 12-print_float - script that prints a number with two decimal places, followed by a new line
 13-print_float - script that prints a number with two decimal places, followed by a new line
 100-decimal_to_hexadecimal - script that converts a number from base 10 to base 16
+101-rot13 - script that encodes and decodes text using the rot13 encryption
