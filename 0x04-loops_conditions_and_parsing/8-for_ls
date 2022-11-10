@@ -5,6 +5,6 @@
 LIST="$(ls [[:digit:]]-*)"
 for i in $LIST
 do
-	NAME=$(ls "$i" | sed -e 's/[[:digit:]]-*//')
-	echo $NAME
+	NAME=$(find "$i" | sed -e 's/[[:digit:]]-*//')
+	echo "$NAME"
 done
