@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# a Bash script that displays content of current directory in list
+#+ format with the name after the first dash
+
+LIST="$(ls [[:digit:]]-*)"
+for i in $LIST
+do
+	NAME=$(ls "$i" | sed -e 's/[[:digit:]]-*//')
+	echo $NAME
+done
