@@ -2,7 +2,7 @@
 # a Bash script that displays content of current directory in list
 #+ format with the name after the first dash
 
-LIST="$(ls [[:digit:]]-*)"
+LIST="$(ls [[:digit:]][-]*)"
 for i in $LIST
 do
 	NAME=$(find "$i" | sed -e 's/[[:digit:]]-*//')
